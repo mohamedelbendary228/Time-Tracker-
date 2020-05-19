@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "75221699466",
+    "firebase_url": "https://time-tracker-mab-15d04.firebaseio.com",
+    "project_id": "time-tracker-mab-15d04",
+    "storage_bucket": "time-tracker-mab-15d04.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:75221699466:android:3af36fc6da4f3693739673",
+        "android_client_info": {
+          "package_name": "com.mab.timetraker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "75221699466-c1cbefumu9hkmgrnd3bqb7545bj0nv7p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mab.timetraker",
+            "certificate_hash": "e914e156efbef517332cc11a86180bb39c277342"
+          }
+        },
+        {
+          "client_id": "75221699466-p17haogp4e9f5sj3m76s71rfle65klej.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBBjSh8zmfeaG5eoZWmRo-Mq6yqBSFb3c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "75221699466-p17haogp4e9f5sj3m76s71rfle65klej.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
