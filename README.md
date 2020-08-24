@@ -7,6 +7,10 @@ App used For Track and manage your jobs and salaries with CRUD Services and Auth
 Part 1
 <img src="GIF/time_tracker_GIF.gif" width="200">
 
+part2
+<img src="GIF/time_tracker_GIF2.gif" width="200">
+
+
 
 This project is a starting point for a Flutter application.
 
