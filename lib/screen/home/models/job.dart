@@ -1,3 +1,4 @@
+import 'dart:ui';
 
 import 'package:meta/meta.dart';
 
@@ -12,12 +13,11 @@ class Job {
       return null;
     }
     final String name = data['name'];
+    if (name == null) {
+      return null;
+    }
     final int ratePerHour = data['ratePerHour'];
-    return Job(
-      id: documentId,
-      name: name,
-      ratePerHour: ratePerHour
-    );
+    return Job(id: documentId, name: name, ratePerHour: ratePerHour);
   }
 
   Map<String, dynamic> toMap() {
@@ -26,4 +26,20 @@ class Job {
       'ratePerHour': ratePerHour,
     };
   }
+
+  @override
+  int get hashCode => hashValues(id, name, ratePerHour);
+
+  @override
+  bool operator ==(other) {
+    if (identical(this, other)) return true;
+    if (runtimeType != other.runtimeType) return false;
+    final Job otherJob = other;
+    return id == otherJob.id &&
+        name == otherJob.name &&
+        ratePerHour == otherJob.ratePerHour;
+  }
+
+  @override
+  String toString() => 'id: $id, name: $name, ratePerHour: $ratePerHour';
 }
