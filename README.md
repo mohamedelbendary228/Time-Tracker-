@@ -1,18 +1,12 @@
-# timetraker
+# Tracker App
 
 App used For Track and manage your jobs and salaries with CRUD Services and Authentication.
 
 
-## Getting Started
-Part 1
-<img src="GIF/time_tracker_GIF.gif" width="200">
+## App Overview
 
-part2
-<img src="GIF/time_tracker_GIF2.gif" width="200">
+<img src="GIF/time_tracker_GIF.gif" width="150" height="300"> <img src="GIF/time_tracker_GIF2.gif" width="150" height="300">
 
-
-
-This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
 
